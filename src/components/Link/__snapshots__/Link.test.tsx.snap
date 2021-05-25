@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link Test 1`] = `
+<div>
+  <a
+    class="sx28ds4 sx28ds44nwvh--type-primary"
+    data-testid="link"
+  >
+    Hello
+  </a>
+</div>
+`;

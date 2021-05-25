@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormikInput → Renders Correctly 1`] = `
+<div>
+  <input
+    class="sxp0t8a sxp0t8a3bov9--color-normal"
+    data-testid="textInput"
+    name="test"
+    value="hu"
+  />
+</div>
+`;

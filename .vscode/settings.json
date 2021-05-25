@@ -1,0 +1,16 @@
+{
+  "cSpell.words": [
+    "Todos",
+    "VIEWPORTS",
+    "buga",
+    "gtag",
+    "preconnect",
+    "svgr",
+    "testid",
+    "zipcode"
+  ],
+  "editor.formatOnSave": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true
+  }
+}

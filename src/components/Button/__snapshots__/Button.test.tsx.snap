@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Button Test 1`] = `
+<div>
+  <button
+    class="sxexqz4"
+    data-testid="button"
+    type="button"
+  >
+    <span
+      class="sxmjyut sxmjyut8iuhr--hide-visible"
+    >
+      Hello
+    </span>
+  </button>
+</div>
+`;

@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Menu Test 1`] = `
+<div>
+  <button
+    aria-haspopup="menu"
+    class="sxqt3zu"
+    data-state="closed"
+    type="button"
+  >
+    hello
+     
+    <i
+      class="sx03kze sx03kze-8rfvp gg-chevron-down"
+    />
+  </button>
+</div>
+`;

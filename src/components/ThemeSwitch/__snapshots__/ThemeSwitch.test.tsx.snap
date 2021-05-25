@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ThemeSwitch Test 1`] = `
+<div>
+  <button
+    class="sxqxfk8"
+    data-testid="themeSwitch"
+    type="button"
+  >
+    <i
+      class="sx03kze sx03kze-uzmqd gg-sun"
+    />
+  </button>
+</div>
+`;

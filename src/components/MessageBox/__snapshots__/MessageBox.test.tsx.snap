@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MessageBox Test 1`] = `
+<div>
+  <div
+    class="sxeg1y8 sxeg1y880y8k--type-info"
+    data-testid="messageBox"
+  >
+    <p
+      class="sx3wn9e sx3wn9e59c0g--level-info sx3wn9eh4u4f--weight-normal sx3wn9efxkwo--color-normal sx3wn9e0o7ux--align-left sx3wn9ezvy3i--spacing-none"
+      data-testid="text"
+    >
+      Hello
+    </p>
+  </div>
+</div>
+`;

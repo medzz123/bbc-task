@@ -1,0 +1,12 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text Test 1`] = `
+<div>
+  <p
+    class="sx3wn9e sx3wn9e9n3hc--level-normal sx3wn9eh4u4f--weight-normal sx3wn9efxkwo--color-normal sx3wn9e0o7ux--align-left sx3wn9ep1cgo--spacing-small"
+    data-testid="text"
+  >
+    Hello
+  </p>
+</div>
+`;

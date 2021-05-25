@@ -1,0 +1,6 @@
+.eslintrc.js
+jest.config.js
+commitlint.config.js
+**/*.js
+node_modules
+.next
