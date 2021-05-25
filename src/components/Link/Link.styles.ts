@@ -1,8 +1,8 @@
 import { styled } from '@theme/config';
 
 export const StyledLink = styled('a', {
-  color: '$primary',
-  fontSize: '$info',
+  color: '$text',
+  fontSize: '$normal',
   cursor: 'pointer',
   '&:hover': {
     textDecoration: 'underline',
@@ -11,7 +11,7 @@ export const StyledLink = styled('a', {
   variants: {
     type: {
       primary: {
-        color: '$primary',
+        color: '$text',
       },
       secondary: {
         color: '$hiContrast',

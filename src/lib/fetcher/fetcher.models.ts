@@ -5,4 +5,5 @@ export interface FetcherProps {
   authToken?: string;
   body?: Record<string, unknown>;
   headers?: Record<string, unknown>;
+  key: string;
 }

@@ -4,10 +4,14 @@ export const HomeContainer = styled('main', {
   flexDirection: 'column',
 });
 
-export const TodoCard = styled('div', {
-  backgroundColor: '$loContrast',
-  boxShadow: '$colors$shadow',
-  p: '$12',
-  m: '$12',
-  width: 'fit-content',
+export const HomeContent = styled('div', {
+  padding: '$20 $20 $60 $20',
+  maxWidth: '$5xl',
+  margin: '0 auto',
+  width: '$full',
+});
+
+export const ArticleContainer = styled('div', {
+  maxWidth: '$3xl',
+  margin: '0 auto',
 });

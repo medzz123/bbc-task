@@ -16,7 +16,7 @@ export interface TextProps {
   /**
    * Color
    */
-  color?: 'error' | 'success' | 'normal' | 'info';
+  color?: 'error' | 'text' | 'main';
   /**
    * Text Align
    */

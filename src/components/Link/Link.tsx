@@ -5,10 +5,10 @@ import { LinkProps } from './Link.models';
 import { StyledLink } from './Link.styles';
 
 const Link: FunctionComponent<LinkProps> = (props) => {
-  const { children, href, variant = 'primary' } = props;
+  const { children, variant = 'primary', ...rest } = props;
 
   return (
-    <NextLink href={href}>
+    <NextLink {...rest}>
       <StyledLink data-testid="link" type={variant}>
         {children}
       </StyledLink>

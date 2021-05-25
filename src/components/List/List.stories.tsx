@@ -1,13 +1,13 @@
 import { Meta, Story } from '@storybook/react/types-6-0';
 import React from 'react';
 
-import About from './About';
+import List from './List';
 
 export default {
-  title: 'Pages/About',
-  component: About,
+  title: 'Components/List',
+  component: List,
 } as Meta;
 
-const Template: Story = (storyArguments) => <About {...storyArguments} />;
+const Template: Story = (storyArguments) => <List {...storyArguments} />;
 
 export const Default = Template.bind({});

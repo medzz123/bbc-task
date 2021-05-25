@@ -1,4 +1,4 @@
-export interface LinkProps {
-  href: string;
+import { LinkProps as NextLinkProps } from 'next/link';
+export interface LinkProps extends NextLinkProps {
   variant?: 'primary' | 'secondary';
 }

@@ -103,7 +103,7 @@ export const { css, styled, global, theme, getCssString } = createCss({
 
 export const globalStyles = global({
   '*, ::before, ::after': { boxSizing: 'border-box' },
-  body: { margin: 0, backgroundColor: '$loContrast' },
+  body: { margin: 0, backgroundColor: '$background' },
   '*': {
     fontFamily: '$inter',
   },
@@ -116,6 +116,9 @@ export const globalStyles = global({
     flex: 1,
     height: 'auto',
     minHeight: 'auto',
+  },
+  'p, span, h1, h2, h3': {
+    fontFamily: '$inter',
   },
 });
 

@@ -40,17 +40,14 @@ export const TextContainer = styled('p', {
       black: { fontWeight: '$black' },
     },
     color: {
-      success: {
-        color: '$hiContrast',
-      },
       error: {
         color: '$error',
       },
-      info: {
-        color: '$hiContrast',
+      text: {
+        color: '$text',
       },
-      normal: {
-        color: '$hiContrast',
+      main: {
+        color: '$main',
       },
     },
     align: {
