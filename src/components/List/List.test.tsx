@@ -4,11 +4,7 @@ import React from 'react';
 import List from './List';
 
 test('List Test', () => {
-  const { getByTestId, container } = render(<List>Hello</List>);
-
-  const listNode = getByTestId('list');
-
-  expect(listNode.textContent).toBe('Hello');
+  const { container } = render(<List items={[]} />);
 
   expect(container).toMatchSnapshot();
 });

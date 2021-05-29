@@ -3,7 +3,7 @@
 exports[`ThemeSwitch Test 1`] = `
 <div>
   <button
-    class="sxqxfk8"
+    class="sxqhmhl"
     data-testid="themeSwitch"
     type="button"
   >

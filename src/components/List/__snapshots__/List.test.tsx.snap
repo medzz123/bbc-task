@@ -1,0 +1,10 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List Test 1`] = `
+<div>
+  <ul
+    class="sx7p6k5"
+    data-testid="list"
+  />
+</div>
+`;

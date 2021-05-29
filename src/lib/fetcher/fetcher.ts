@@ -1,4 +1,4 @@
-import axios from 'axios';
+import axios from '@lib/axios';
 import { useQuery } from 'react-query';
 
 import { FetcherProps } from './fetcher.models';

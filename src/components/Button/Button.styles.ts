@@ -2,19 +2,20 @@ import { styled } from '@theme/config';
 
 export const ButtonContainer = styled('button', {
   padding: '$10 $28',
-  boxShadow: 'none',
+  boxShadow: '0 0 0 $sizes$2 $colors$main',
   border: 'none',
-  backgroundColor: '$primary',
+  backgroundColor: 'transparent',
   borderRadius: '$sizes$12',
-  color: '$loContrast',
-  fontSize: '$info',
+  color: '$main',
+  fontSize: '$normal',
   fontWeight: '$normal',
   display: 'flex',
   justifyContent: 'center',
   alignItems: 'center',
   cursor: 'pointer',
   '&:hover, &:focus': {
-    boxShadow: '0 0 0 $sizes$2 $colors$success',
+    boxShadow: '0 0 0 $sizes$2 $colors$text',
+    color: '$text',
   },
   '&:disabled': {
     backgroundColor: '$grey800',

@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ErrorStub Test 1`] = `
+<div>
+  <button
+    class="sxsfhg3 sxsfhg3sbyv7--isError-success"
+    data-testid="errorStub"
+    type="button"
+  >
+    <i
+      class="sx03kze sx03kze-uzmqd gg-smile"
+    />
+  </button>
+</div>
+`;

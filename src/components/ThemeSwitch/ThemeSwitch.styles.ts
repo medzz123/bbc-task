@@ -1,7 +1,7 @@
 import { styled } from '@theme/config';
 
 export const ThemeSwitchContainer = styled('button', {
-  backgroundColor: '$text',
+  backgroundColor: '$main',
   color: '$background',
   padding: '$0',
   size: '$32',

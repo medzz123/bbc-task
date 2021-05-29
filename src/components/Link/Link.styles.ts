@@ -1,7 +1,10 @@
 import { styled } from '@theme/config';
 
 export const StyledLink = styled('a', {
-  color: '$text',
+  color: '$background',
+  background: '$main',
+  padding: '$8 $12',
+  borderRadius: '$sizes$12',
   fontSize: '$normal',
   cursor: 'pointer',
   '&:hover': {
@@ -11,10 +14,10 @@ export const StyledLink = styled('a', {
   variants: {
     type: {
       primary: {
-        color: '$text',
+        color: '$background',
       },
       secondary: {
-        color: '$hiContrast',
+        color: '$background',
       },
     },
   },

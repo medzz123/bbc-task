@@ -8,6 +8,6 @@ export default {
   component: List,
 } as Meta;
 
-const Template: Story = (storyArguments) => <List {...storyArguments} />;
+const Template: Story = (storyArguments) => <List items={[]} {...storyArguments} />;
 
 export const Default = Template.bind({});

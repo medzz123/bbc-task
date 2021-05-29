@@ -1,5 +1,6 @@
 import '@theme/icons.css';
 
+import ErrorStub from '@components/ErrorStub';
 import ThemeSwitch from '@components/ThemeSwitch';
 import environment from '@lib/environment';
 import { pageView } from '@lib/gtag';
@@ -45,6 +46,7 @@ const MyApp = ({ Component, pageProps }: AppProps) => {
             </Hydrate>
           </QueryClientProvider>
           <ThemeSwitch />
+          <ErrorStub />
         </ThemeProvider>
       </IdProvider>
     </Fragment>
