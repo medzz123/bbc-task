@@ -59,7 +59,7 @@ const Rate: NextPage = () => {
                     <Text variant="h3">{value}</Text>
                   </Box>
 
-                  <Box css={{ minWidth: '$60' }}>
+                  <Box css={{ minWidth: '$80' }}>
                     <ReactStars
                       onChange={(rating: string) => {
                         setRatings((p) => ({ ...p, [key]: Number(rating) }));

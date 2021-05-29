@@ -1,6 +1,6 @@
 export const articleList = {
   '1': {
-    title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit, Article 1',
+    title: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit',
     body: [
       {
         type: 'heading',
@@ -48,7 +48,7 @@ export const articleList = {
     ],
   },
   '2': {
-    title: 'Praesent bibendum nec velit a fringilla. Nulla facilisi, Article 2',
+    title: 'Praesent bibendum nec velit a fringilla. Nulla facilisi',
     body: [
       {
         type: 'heading',
@@ -110,7 +110,7 @@ export const articleList = {
     ],
   },
   '3': {
-    title: 'Vestibulum posuere orci ullamcorper nisi porta, sit amet tempus nibh porta, Article 3',
+    title: 'Vestibulum posuere orci ullamcorper nisi porta, sit amet tempus nibh porta',
     body: [
       {
         type: 'heading',
@@ -169,7 +169,7 @@ export const articleList = {
     ],
   },
   '4': {
-    title: 'Maecenas venenatis lorem ut erat dictum, sed varius est porta, Article 4',
+    title: 'Maecenas venenatis lorem ut erat dictum, sed varius est porta',
     body: [
       {
         type: 'heading',
@@ -220,7 +220,7 @@ export const articleList = {
     ],
   },
   '5': {
-    title: 'Nulla nibh erat, pharetra at ultricies nec, tincidunt luctus arcu, Article 5',
+    title: 'Nulla nibh erat, pharetra at ultricies nec, tincidunt luctus arcu',
     body: [
       {
         type: 'heading',
